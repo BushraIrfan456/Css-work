@@ -129,3 +129,179 @@ h2{
  .pic{
    list-style-type: none;
  }
+ /* Base Styles for Mobile First 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef0f2;
+  color: #333;
+  padding: 20px;
+}
+
+/* Style for Resume Sidebar */
+.sidebar {
+  background-color: olivedrab;
+  padding: 10px;
+  text-align: center;
+}
+
+.sidebar a {
+  display: block;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Style for Main Content */
+.main-content {
+  margin-top: 20px;
+}
+
+/* Media Queries */
+
+/* Tablets - Width between 768px to 1024px */
+@media screen and (min-width: 768px) {
+  .sidebar {
+    width: 25%;
+    float: left;
+  }
+
+  .main-content {
+    width: 70%;
+    float: right;
+  }
+}
+
+/* Laptops/Desktops - Width between 1024px to 1440px */
+@media screen and (min-width: 1024px) {
+  .sidebar {
+    width: 20%;
+  }
+
+  .main-content {
+    width: 75%;
+  }
+}
+
+/* Large Desktops - Above 1440px */
+@media screen and (min-width: 1440px) {
+  .sidebar {
+    width: 18%;
+  }
+
+  .main-content {
+    width: 78%;
+  }
+}
+
+/* Mobile - Width less than 768px */
+@media screen and (max-width: 767px) {
+  .sidebar {
+    width: 100%;
+    float: none;
+  }
+
+  .main-content {
+    width: 100%;
+    float: none;
+  }
+}
+
+/* Base Styles for Mobile First 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef0f2;
+  color: #333;
+  padding: 20px;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for Sidebar 
+.sidebar {
+  background-color: #a2b968;
+  padding: 10px;
+  text-align: center;
+}
+
+.sidebar a {
+  display: block;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Style for Main Content 
+.main-content {
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+/* For Images in Main Content 
+.main-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Media Queries */
+
+/* Mobile - Width less than 768px 
+@media screen and (max-width: 767px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    float: none;
+  }
+
+  .main-content {
+    width: 100%;
+    float: none;
+  }
+}
+
+/* Tablets - Width between 768px to 1024px 
+@media screen and (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .sidebar {
+    width: 30%;
+  }
+
+  .main-content {
+    width: 70%;
+  }
+}
+
+/* Laptops/Desktops - Width between 1024px to 1440px 
+@media screen and (min-width: 1024px) {
+  .sidebar {
+    width: 25%;
+  }
+
+  .main-content {
+    width: 75%;
+  }
+}
+
+/* Large Desktops - Above 1440px */
+@media screen and (min-width: 1440px) {
+  .sidebar {
+    width: 20%;
+  }
+
+  .main-content {
+    width: 80%;
+  }
+}*/
